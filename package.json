@@ -1,0 +1,17 @@
+{
+  "name": "eodoes-eosite-eocore",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "chokidar": "*",
+    "fkill": "*"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "undefined",
+    "url": "git@github.com:undefined/undefined.git"
+  }
+}

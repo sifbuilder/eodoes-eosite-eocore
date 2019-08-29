@@ -1,0 +1,76 @@
+----log----
+
+
+events.eoclear: removeSync ../eosites/eodoes-eosite-eocore/.cache
+
+events.eoclear: removeSync ../eosites/eodoes-eosite-eocore/public
+
+events.eoclear: removeSync ../eosites/eodoes-eosite-eocore/starter/.cache
+
+events.eoclear: removeSync ../eosites/eodoes-eosite-eocore/starter/public
+
+events.eoclear: removeSync ../eosites/eodoes-eosite-eocore/packages/gatsby-theme-theme-0/.cache
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/package-lock.json
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/yarn-error.log
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/yarn.lock
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/yarnrc
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/README.md
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/gatsby-config.js
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/LICENSE
+
+events.eoclear: removeSync ../eosites/eodoes-eosite-eocore/packages/gatsby-theme-theme-0/public
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/packages
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/packages
+
+╭───────────────────────────────────────────────────────────────────────╮
+│   gatsby eocore                                                       │
+│   Chris Biscardi and Jason Lengstorf                                  │
+│   https://www.youtube.com/watch?v=0Ta-awtLZTs                         │
+╰───────────────────────────────────────────────────────────────────────╯
+002 file root manifest
+
+mevent.eofiles: fileUpdSync ../eosites/eodoes-eosite-eocore/package.json
+004 file starter manifest
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/gatsby-node.js
+006 yarn with init dependencies
+
+mevent.eoexec: yarn --silent
+
+mevent.eofiles: fileUpdSync ../eosites/eodoes-eosite-eocore/packages/starter/package.json
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/gatsby-browser.js
+
+event.uncode: removeSync ../eosites/eodoes-eosite-eocore/src
+
+mevent.eofiles: fileUpdSync ../eosites/eodoes-eosite-eocore/packages/starter/src/pages/index.js
+008a create empty packages/starter/src/pages/index.js
+008b create 404 page
+010 restart server
+
+mevent.eofiles: fileUpdSync ../eosites/eodoes-eosite-eocore/packages/starter/src/pages/404.js
+
+mevent.eostop: fkill 8000
+
+mevents.eorun: exec yarn workspace starter run develop
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║   012 view entry page                                                 ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+mevent.eoview: setBrowser
+
+mevent.eoview: gotoPage http://localhost:8000/
+
+╭───────────────────────────────────────────────────────────────────────╮
+│   999 END                                                             │
+╰───────────────────────────────────────────────────────────────────────╯

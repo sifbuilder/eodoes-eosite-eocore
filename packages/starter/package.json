@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "description": "eonized space",
+  "author": "sifbuilder",
+  "license": "GPL-3.0",
+  "scripts": {
+    "monitor": "chokidar \"gatsby-*.js\" -c \"fkill -f :8000 && gatsby develop\"",
+    "eowatch": "chokidar \"gatsby-*.js\" -c \"fkill -f :8000\"",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
